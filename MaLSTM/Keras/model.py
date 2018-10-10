@@ -52,10 +52,5 @@ class ManhattanLSTM:
 
 		model.compile(optimizer=optimizer,loss='binary_crossentropy',metrics=['accuracy'])
 
-		return model 
-
-
-
-
-
+		return model
 
