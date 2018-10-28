@@ -8,7 +8,7 @@ from preprocess import *
 
 
 def load_sick_data():
-	sick_data = pd.read_csv('../../../Datasets/SICK.csv',sep='	')
+	sick_data = pd.read_csv('../../Datasets/SICK.csv',sep='	')
 
 	sick_data = sick_data[['sentence_A','sentence_B','entailment_label','SemEval_set']]
 
